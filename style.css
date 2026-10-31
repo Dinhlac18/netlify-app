@@ -1,32 +1,75 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
 }
 
-.content-box {
-    background-color: #ffffff;
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    width: 400px;
+.container {
+    text-align: center;
 }
 
-h3 {
-    font-size: 18px;
-    color: #333333;
-    margin-bottom: 20px;
-    font-weight: normal;
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.highlight {
+    color: #cc0000;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.red-text {
+    color: #cc0000;
+    font-weight: bold;
+}
+
+.profile-card {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 25px 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.avatar-container {
+    flex-shrink: 0;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #cc0000;
 }
 
 .info {
-    font-size: 24px;
-    color: #ff0000;
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #222;
+}
+
+.dots {
+    margin-top: 30px;
+    color: #888;
     font-weight: bold;
-    margin: 0;
+    letter-spacing: 2px;
 }
